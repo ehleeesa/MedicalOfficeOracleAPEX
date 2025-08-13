@@ -1,0 +1,130 @@
+-- cbReteta - 40 de retete
+DELETE FROM cbReteta; 
+INSERT INTO cbReteta VALUES ('1541109647836', 'Neurofluxid', '1+1', 28);     
+INSERT INTO cbReteta VALUES ('2441027784638', 'Cardiozym', '1', 60);                            
+INSERT INTO cbReteta VALUES ('6050923643789', 'Pulmonacor', '1+1+1', 15);                       
+INSERT INTO cbReteta VALUES ('6220419938470', 'Artroflex', '0/5+0/5', 5);                       
+INSERT INTO cbReteta VALUES ('5730718934872', 'Renotril', '0/5+0/5+1', 8);                      
+INSERT INTO cbReteta VALUES ('1880508137483', 'Endocrilin', '1', 8);                            
+INSERT INTO cbReteta VALUES ('2940707872366', 'Osteotrin', '2+1', 5);                          
+INSERT INTO cbReteta VALUES ('5121212087402', 'Allergex', '2+1+2', 6);                         
+INSERT INTO cbReteta VALUES ('6051119294878', 'Metroclopramid', '2+2+2', 7);                    
+INSERT INTO cbReteta VALUES ('1620929023847', 'Circulatex', '2+1+1', 28);                       
+INSERT INTO cbReteta VALUES ('2640123874563', 'Aspacardin', '1+1', 30);                     
+INSERT INTO cbReteta VALUES ('5081107287364', 'Ibuprofen', '1', 35);                            
+INSERT INTO cbReteta VALUES ('6001218928734', 'Oculartis', '1+1+1', 45);                        
+INSERT INTO cbReteta VALUES ('2940707872966', 'Parasinus', '2+2', 40);                          
+INSERT INTO cbReteta VALUES ('5730715934872', 'Digestex', '0/5+0/5', 45);                       
+INSERT INTO cbReteta VALUES ('1591109647836', 'Musculartis', '1+1+1', 90);                      
+INSERT INTO cbReteta VALUES ('6050923643781', 'Respirovita', '0/5+0/5+1', 15);                  
+INSERT INTO cbReteta VALUES ('6220419938479', 'Dermogelis', '1+1', 10);                      
+INSERT INTO cbReteta VALUES ('2940707872311', 'Pulmoaid', '1+1+1', 5);                          
+INSERT INTO cbReteta VALUES ('5081107287239', 'Otofortis', '2+2', 5);                          
+INSERT INTO cbReteta VALUES ('1981231273682', 'Vasculin', '0/5+0/5', 5);                        
+INSERT INTO cbReteta VALUES ('2960628768291', 'Sinusan', '1+1+1', 5);                     
+INSERT INTO cbReteta VALUES ('6040123055059', 'Hepatolin', '1+1+1', 7);                         
+INSERT INTO cbReteta VALUES ('1910906173482', 'Hepatombrin', '0/5+0/5+1', 9);                  
+INSERT INTO cbReteta VALUES ('6031231093482', 'Gastromed', '1+1', 6);                          
+INSERT INTO cbReteta VALUES ('5021129093480', 'Dermazone', '1+1+1', 5);                         
+INSERT INTO cbReteta VALUES ('2990808913873', 'Neurorestor', '2+2', 3);                      
+INSERT INTO cbReteta VALUES ('1981105917384', 'Gastrocalm', '0/5+0/5+1', 10);                   
+INSERT INTO cbReteta VALUES ('1900330918347', 'Immuvox', '1+1+1', 15);                          
+INSERT INTO cbReteta VALUES ('2730330723649', 'Neuroshield', '1+1', 20);                      
+INSERT INTO cbReteta VALUES ('6001104264782', 'Ymumax', '2+2', 3);                            
+INSERT INTO cbReteta VALUES ('6000802872539', 'Sindolor', '2', 15);                             
+INSERT INTO cbReteta VALUES ('6011238237456', 'Triferment', '1+1', 10);                      
+INSERT INTO cbReteta VALUES ('6030204827458', 'Fiobilin', '1', 9);                              
+INSERT INTO cbReteta VALUES ('6010312872485', 'Dulcolax', '0/5+0/5', 25);                     
+INSERT INTO cbReteta VALUES ('2990808627845', 'Anghirol', '1+2+1', 30);                         
+INSERT INTO cbReteta VALUES ('2990808264859', 'Madopar', '2',18);                              
+INSERT INTO cbReteta VALUES ('2990808624981', 'Neuroraf', '2+2', 15);                         
+INSERT INTO cbReteta VALUES ('2990808236548', 'Medif', '1+1+1', 2);                             
+INSERT INTO cbReteta VALUES ('2990808724594', 'Elexor', '2', 21);                               
+
+
+-- cbSpecialitate - 9 specializari
+DELETE FROM cbSpecialitate;
+INSERT INTO cbSpecialitate VALUES ('cardio', 'Cardiologie', 1.5);
+INSERT INTO cbSpecialitate VALUES ('endo', 'Endocrinologie', 1.3);
+INSERT INTO cbSpecialitate VALUES ('gineco', 'Ginecologie', 1.4);
+INSERT INTO cbSpecialitate VALUES ('ofta', 'Oftalmologie', 1.3);
+INSERT INTO cbSpecialitate VALUES ('pneumo', 'Pneumologie', 1.2);
+INSERT INTO cbSpecialitate VALUES ('gastro', 'Gastroenterologie', 1.4);
+INSERT INTO cbSpecialitate VALUES ('uro', 'Urologie', 1.2);
+INSERT INTO cbSpecialitate VALUES ('chir', 'Chirurgie', 1.9);
+INSERT INTO cbSpecialitate VALUES ('derma', 'Dermatologie', 1.4);
+
+
+-- cbGrad - 4 grade
+DELETE FROM cbGrad;
+INSERT INTO cbGrad VALUES ('R', 'rezident', 80);
+INSERT INTO cbGrad VALUES ('S', 'specialist', 140);
+INSERT INTO cbGrad VALUES ('P', 'primar', 100);
+INSERT INTO cbGrad VALUES ('C', 'consultant', 120);
+
+
+-- cbMedic - 30 de medici
+DELETE FROM cbMedic;
+INSERT INTO cbMedic VALUES ('M003', 'Stoica Ana', 'cardio','R');                
+INSERT INTO cbMedic VALUES ('M005', 'Balan Andrei', 'endo', 'S');
+INSERT INTO cbMedic VALUES ('M009', 'Dragan Elena', 'gineco', 'S');
+INSERT INTO cbMedic VALUES ('M018', 'Tudor Maria', 'ofta', 'P');
+INSERT INTO cbMedic VALUES ('M023', 'Gheorghe Vlad', 'pneumo', 'S');
+INSERT INTO cbMedic VALUES ('M025', 'Dascalu Adelina', 'gastro', 'R');
+INSERT INTO cbMedic VALUES ('M028', 'Moldovan Ioana', 'gineco', 'P');
+INSERT INTO cbMedic VALUES ('M031', 'Marinescu Cristina', 'ofta', 'P');
+INSERT INTO cbMedic VALUES ('M032', 'Lerintiu Andreea', 'endo', 'P');
+INSERT INTO cbMedic VALUES ('M037', 'Todoran Vlad', 'uro', 'P');
+INSERT INTO cbMedic VALUES ('M041', 'Zifceac Lorena', 'uro', 'P');
+INSERT INTO cbMedic VALUES ('M042', 'Chirla David', 'chir', 'S');
+INSERT INTO cbMedic VALUES ('M049', 'Ciopeica Mihnea', 'chir', 'S');
+INSERT INTO cbMedic VALUES ('M051', 'Dod Darius', 'pneumo', 'R');
+INSERT INTO cbMedic VALUES ('M056', 'Ardelean Sebastian', 'derma', 'S');
+INSERT INTO cbMedic VALUES ('M059', 'Baba Paul', 'derma', 'C');
+INSERT INTO cbMedic VALUES ('M067', 'Bodi Daniel', 'endo', 'C');
+INSERT INTO cbMedic VALUES ('M078', 'Blahuta Andrei', 'pneumo', 'R');
+INSERT INTO cbMedic VALUES ('M081', 'Sima Romulus', 'pneumo', 'R');
+INSERT INTO cbMedic VALUES ('M089', 'Hodoroaba Iulia', 'uro', 'C');
+INSERT INTO cbMedic VALUES ('M093', 'Popescu Stefan', 'gineco', 'S');
+INSERT INTO cbMedic VALUES ('M095', 'Torj Paul', 'ofta', 'C');
+INSERT INTO cbMedic VALUES ('M099', 'Marut Maria', 'ofta', 'P');
+INSERT INTO cbMedic VALUES ('M103', 'Mladin Denis', 'cardio', 'P');
+INSERT INTO cbMedic VALUES ('M108', 'Cioanca Larisa', 'gastro', 'R');
+INSERT INTO cbMedic VALUES ('M123', 'Iga Marian', 'cardio', 'R');
+INSERT INTO cbMedic VALUES ('M141', 'Bobis Sebastian', 'chir', 'S');
+INSERT INTO cbMedic VALUES ('M148', 'Laza Bogdan', 'chir', 'P');
+INSERT INTO cbMedic VALUES ('M152', 'Iancau Heidi', 'endo', 'C');
+INSERT INTO cbMedic VALUES ('M156', 'Bordas Diana', 'gastro', 'R');
+
+-- cbProgramare - 30 de programari
+DELETE FROM cbProgramare; 
+INSERT INTO cbProgramare VALUES ('00059', '05/23/2024', '1620929023847', 'Arbore Nichita','M023', 'C101');                 
+INSERT INTO cbProgramare VALUES ('00094', '12/06/2024', '1541109647836', 'Alexandrescu Marius', 'M123', 'B603');       
+INSERT INTO cbProgramare VALUES ('00108', '05/07/2024', '2441027784638', 'Belg Paul', 'M123', 'B602');                  
+INSERT INTO cbProgramare VALUES ('00157', '07/29/2024', '6050923643789', 'Crisan Daniel', 'M042', 'B529');                 
+INSERT INTO cbProgramare VALUES ('00193', '08/14/2024', '6220419938470', 'Cristescu Sorina', 'M152', 'B530');             
+INSERT INTO cbProgramare VALUES ('00225', '09/03/2024', '5730718934872', 'Beliat Sorana', 'M152', 'B421');               
+INSERT INTO cbProgramare VALUES ('00329', '09/22/2024', '1880508137483', 'Ruj Mihai', 'M023', 'A103');              
+INSERT INTO cbProgramare VALUES ('00462', '11/10/2024', '2940707872366', 'Vlad Simona', 'M037', 'A108');                   
+INSERT INTO cbProgramare VALUES ('00473', '10/29/2024', '2730330723649', 'Pop Ionut', 'M089', 'A109');                    
+INSERT INTO cbProgramare VALUES ('00479', '11/16/2024', '1900330918347', 'Mester Nicoleta', 'M056', 'B105');            
+INSERT INTO cbProgramare VALUES ('00556', '02/12/2024', '1981105917384', 'Grigore Flavius', 'M141', 'C304');             
+INSERT INTO cbProgramare VALUES ('00661', '12/21/2024', '2990808913873', 'Tud Horia', 'M056', 'A302');                     
+INSERT INTO cbProgramare VALUES ('01007', '10/01/2025', '5021129093480', 'Hoin Alexandru', 'M037', 'A401');               
+INSERT INTO cbProgramare VALUES ('01011', '01/29/2025', '6031231093482', 'Bejera Iliana', 'M037', 'C307');                 
+INSERT INTO cbProgramare VALUES ('01024', '02/16/2025', '1910906173482', 'Andea Andreas', 'M042', 'B505');                
+INSERT INTO cbProgramare VALUES ('01115', '07/03/2025', '6040123055059', 'Rad Bogdan', 'M023', 'A116');                         
+INSERT INTO cbProgramare VALUES ('01205', '03/26/2025', '2960628768291', 'Furdea Calin', 'M141', 'A302');                  
+INSERT INTO cbProgramare VALUES ('01241', '03/27/2025', '1981231273682', 'Giligh Alexandra', 'M152', 'B621');            
+INSERT INTO cbProgramare VALUES ('01288', '04/22/2025', '5081107287239', 'Galea Andrada', 'M089', 'B218');                
+INSERT INTO cbProgramare VALUES ('01342', '11/05/2025', '2940707872311', 'Hasas Remus', 'M123', 'A303');                   
+INSERT INTO cbProgramare VALUES ('01378', '05/17/2025', '6220419938479', 'Foghis Catalin', 'M089', 'D101');             
+INSERT INTO cbProgramare VALUES ('01404', '05/19/2025', '6050923643781', 'Mihoc Catalin', 'M123', 'B300');               
+INSERT INTO cbProgramare VALUES ('01477', '03/06/2025', '5730715934872', 'Kramarik Anna', 'M009', 'D309');                 
+INSERT INTO cbProgramare VALUES ('01556', '06/13/2025', '2940707872966', 'Levai Bianca', 'M042', 'D401');                 
+INSERT INTO cbProgramare VALUES ('01589', '12/07/2025', '6001218928734', 'Trif Bianca', 'M023', 'B109');                
+INSERT INTO cbProgramare VALUES ('01612', '12/07/2025', '6001104264782', 'Olar Radu', 'M009', 'D206');                    
+INSERT INTO cbProgramare VALUES ('01623', '12/12/2025', '6000802872539', 'Tudor Marius', 'M037', 'D103');                 
+INSERT INTO cbProgramare VALUES ('01668', '12/16/2025', '6011238237456', 'Gheorghe Horia', 'M089', 'B302');             
+INSERT INTO cbProgramare VALUES ('01732', '12/21/2025', '6030204827458', 'Gal Mark', 'M009', 'B104');                   
+INSERT INTO cbProgramare VALUES ('01801', '12/27/2025', '6010312872485', 'Anton Grigor', 'M023', 'C103');               
